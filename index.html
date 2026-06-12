@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte & Sustentável</title>
+    <!-- Google Fonts para tipografia moderna e pequena -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link do CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho / Menu de Navegação -->
+    <header class="navbar">
+        <div class="logo">Agro<span>Forte</span></div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="#parte1">Tecnologia</a>
+            <a href="#parte2">Sustentabilidade</a>
+            <a href="#parte3">Produção</a>
+            <a href="#parte4">Inovação</a>
+            <a href="#contato" class="btn-nav">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <!-- PARTE 1: Destaque de Tecnologia Agrícola -->
+    <section id="parte1" class="hero-section text-reveal">
+        <div class="container">
+            <span class="badge">Parte 1 · Força no Campo</span>
+            <h1>Tecnologia de Ponta Orientada ao Agronegócio</h1>
+            <p>Otimizamos a produção rural através de monitoramento inteligente e análise de dados em tempo real para máxima eficiência produtiva.</p>
+            <button class="btn-primary interact-btn" data-info="Descubra nossas soluções de monitoramento via satélite e drones para o manejo de precisão.">Saber Mais</button>
+        </div>
+    </section>
+
+    <!-- PARTE 2: Destaque de Sustentabilidade -->
+    <section id="parte2" class="feature-section alt-bg text-reveal">
+        <div class="container grids">
+            <div class="grid-item">
+                <span class="badge">Parte 2 · Compromisso Verde</span>
+                <h2>Sustentabilidade Reativa e Conservação Ambiental</h2>
+                <p>Nossas práticas alinham a alta produtividade com a preservação do solo e dos recursos hídricos, garantindo o futuro das próximas gerações rurais.</p>
+                <button class="btn-secondary interact-btn" data-info="Conheça nossos programas de créditos de carbono, plantio direto e recuperação de áreas degradadas.">Ver Práticas</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTE 3: Destaque de Produtividade e Resultados -->
+    <section id="parte3" class="feature-section text-reveal">
+        <div class="container grids">
+            <div class="grid-item">
+                <span class="badge">Parte 3 · Resultados Sólidos</span>
+                <h2>Eficiência Operacional de Alto Desempenho</h2>
+                <p>Reduzimos o desperdício de insumos na lavoura e aumentamos a rentabilidade final com o uso estratégico de bioinsumos e maquinário automatizado.</p>
+                <button class="btn-primary interact-btn" data-info="Garantimos até 25% de redução de custos operacionais utilizando manejo integrado e biotecnologia.">Ver Indicadores</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTE 4: Destaque de Futuro e Inovação -->
+    <section id="parte4" class="feature-section alt-bg text-reveal">
+        <div class="container grids">
+            <div class="grid-item">
+                <span class="badge">Parte 4 · Conexão e Futuro</span>
+                <h2>Rastreabilidade Completa da Cadeia Produtiva</h2>
+                <p>Do plantio à colheita, oferecemos transparência total para o mercado consumidor através de plataformas integradas de segurança e certificação.</p>
+                <button class="btn-secondary interact-btn" data-info="Plataforma de blockchain aplicada ao campo para auditoria digital instantânea e segura.">Detalhes da Cadeia</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Painel de Interação Dinâmica (JS exibe dados aqui) -->
+    <div id="infoBox" class="info-box hidden">
+        <p id="infoText"></p>
+        <button id="closeInfo" class="btn-close">Fechar</button>
+    </div>
+
+    <!-- PARTE FINAL: Rodapé com Contatos e Redes Sociais -->
+    <footer id="contato" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>Agro Forte</h3>
+                <p>Unindo a força do campo com a inteligência sustentável.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Conecte-se Conosco</h4>
+                <ul>
+                    <li>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener">@gomes_zx</a></li>
+                    <li>WhatsApp: <a href="https://wa.me" target="_blank" rel="noopener">(44) 99136-4030</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Agro Forte & Sustentável. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Link do JS Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
